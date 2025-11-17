@@ -1,4 +1,4 @@
-# Examen Final — HTML5 Game
+# Proyecto 1er Bimestre — HTML5 Game
 
 Juego arcade shooter desarrollado con HTML5 Canvas y JavaScript.
 
