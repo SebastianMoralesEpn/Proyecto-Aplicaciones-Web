@@ -11,7 +11,6 @@ Juego arcade shooter desarrollado con HTML5 Canvas y JavaScript.
 - **Estados del Juego**: Menú principal, pantalla de controles, pausa, game over y niveles.
 - **Enemigos Variados**: Básicos (100 puntos), Fuertes (300 puntos) y Élite (500 puntos) con diferentes comportamientos.
 - **Sistema de Partículas**: Efectos visuales para explosiones, disparos y transiciones.
-- **Responsive Design**: Adaptable a móviles con controles táctiles.
 - **Guardado de Puntajes**: Récord personal almacenado en localStorage.
 - **Dificultad Progresiva**: Enemigos aparecen más rápido y con mayor frecuencia en niveles superiores.
 
@@ -36,10 +35,6 @@ Juego arcade shooter desarrollado con HTML5 Canvas y JavaScript.
 - **ESPACIO** : Disparar
 - **P** : Pausar/Reanudar
 - **M** : Silenciar/Activar sonido
-
-### Táctil (Móviles):
-- **Deslizar** : Moverse izquierda/derecha
-- **Tocar** : Disparar
 
 ## 🏗️ Estructura del Proyecto
 ```
@@ -82,7 +77,6 @@ Proyecto-AplicacionesWeb/
 
 ## 📱 Compatibilidad
 - Navegadores modernos con soporte para Canvas y ES6.
-- Compatible con móviles (controles táctiles).
 - Requiere servidor local para cargar recursos (debido a CORS).
 
 ## 🎨 Assets
