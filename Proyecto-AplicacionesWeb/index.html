@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Primer Bimestre — HTML5 Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <canvas id="game" width="960" height="540"></canvas>
+        <div id="ui">
+            <div id="score">Puntuación: 0</div>
+            <div id="lives">Vidas: 3</div>
+            <div id="level">Nivel: 1</div>
+        </div>
+        <div id="menu" class="screen active">
+            <h1>SPACE DEFENDER</h1>
+            <p class="subtitle">¡Defiende la Tierra de la invasión alienígena!</p>
+            <div class="game-description">
+                <div class="controls-grid">
+                    <div class="control-item">
+                        <strong>∞</strong> Niveles infinitos con dificultad progresiva
+                    </div>
+                    <div class="control-item">
+                        <strong>40s</strong> Por nivel para sobrevivir
+                    </div>
+                    <div class="control-item">
+                        <strong>3</strong> Vidas para completar la misión
+                    </div>
+                    <div class="control-item">
+                        <strong>💥</strong> Destruye enemigos para ganar puntos
+                    </div>
+                </div>
+            </div>
+            <button id="start-btn">🚀 INICIAR JUEGO</button>
+            <button id="controls-btn">🎮 CONTROLES</button>
+            <button id="mute-btn">🔊 SONIDO</button>
+        </div>
+        <!-- Reemplaza la sección de controles con esto: -->
+<div id="controls" class="screen">
+    <h2>CONTROLES</h2>
+    <div class="controls-grid">
+        <div class="control-item">
+            <strong>← →</strong> Moverse
+        </div>
+        <div class="control-item">
+            <strong>ESPACIO</strong> Disparar
+        </div>
+        <div class="control-item">
+            <strong>P</strong> Pausa
+        </div>
+        <div class="control-item">
+            <strong>M</strong> Silenciar
+        </div>
+    </div>
+    <p>💡 <strong>CÓMO JUGAR:</strong> Usa las flechas para moverte y espacio para disparar</p>
+    <div class="stats">
+        <div class="stat-item">
+            <div class="stat-value">100</div>
+            <div>Enemigo Básico</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-value">300</div>
+            <div>Enemigo Fuerte</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-value">500</div>
+            <div>Enemigo Élite</div>
+        </div>
+    </div>
+    <button id="back-btn">VOLVER AL MENÚ</button>
+</div>
+        <div id="pause" class="screen">
+            <h2>JUEGO EN PAUSA</h2>
+            <button id="resume-btn">Continuar</button>
+            <button id="menu-btn">Menú Principal</button>
+        </div>
+        <div id="gameover" class="screen">
+            <h2>GAME OVER</h2>
+            <p id="final-score">Puntuación final: 0</p>
+            <button id="restart-btn">Reiniciar</button>
+            <button id="main-menu-btn">Menú Principal</button>
+        </div>
+        <div id="loading" class="screen">
+            <h2>CARGANDO...</h2>
+            <div id="progress-bar">
+                <div id="progress"></div>
+            </div>
+            <p id="progress-text">0%</p>
+        </div>
+    </div>
+    <script type="module" src="./main.js"></script>
+</body>
+</html>
